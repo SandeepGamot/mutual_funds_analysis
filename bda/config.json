@@ -1,0 +1,21 @@
+{
+  "lmf": {
+    "current_url": "https://latest-mutual-fund-nav.p.rapidapi.com/fetchLatestNAV",
+    "historical_url": "https://latest-mutual-fund-nav.p.rapidapi.com/fetchHistoricalNAV",
+    "querystring": {
+      "SchemeType": "All",
+      "Date": "01-01-2019"
+    },
+    "headers": {
+      "x-rapidapi-key": "2d30035045msh9ef91251409ef30p1d9151jsn2cedbbb76e79",
+      "x-rapidapi-host": "latest-mutual-fund-nav.p.rapidapi.com"
+    }
+  },
+  "bse": {
+    "url": "https://dmoin-mutual-fund-nav-bse-india-v1.p.rapidapi.com/GetAllSchemeTypes",
+    "headers": {
+      "x-rapidapi-host": "dmoin-mutual-fund-nav-bse-india-v1.p.rapidapi.com",
+      "x-rapidapi-key": "2d30035045msh9ef91251409ef30p1d9151jsn2cedbbb76e79"
+    }
+  }
+}
